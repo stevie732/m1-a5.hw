@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/membership/mem.css">
+    <link rel="stylesheet" href="/media.css">
+    <title>Gym Tech</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="/About/about.html">Home</a></li>
+            <li><a href="/membership/mem.html">Membership</a></li>
+            <li><a href="/Gallery/gallery.html">Gallery</a></li>
+            <li><a href="/Events/events.html">Events</a></li>
+            <li><a href="/Contact/contact.html">Contact</a></li>
+            <li><a href="/3D/index.html">3D</a></li>
+        </ul>
+    <nav class="navbar-2">
+        <ul>
+            <li><a href="/SignUp/login.html">Logout</a></li>
+        </ul>
+    </nav>
+    </nav>
+
+    <!-- Main Section -->
+    <h1 class="reg-form">Membership <br> Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="employee-account"><input id="emloyee-account" type="radio" name="account-type" class="inline" checked /> Employee</label>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal</label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Coding Temple News</option>
+            <option value="2">Coding Youtube Channel</option>
+            <option value="3">Gym-Tech Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I pick things up I put them down..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.github.com/stevie732">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- Footer -->
+    <footer id="feet">
+      <div class="home-foot">
+    <div>
+    <p class="down-low">"The meaning of life is not simply to exist, 
+      to survive, but to move ahead, to go up, to achieve, 
+      to conquer.
+        <br>- Arnold Schwarzenegger.
+        </p>
+        </div>
+    </div>
+    </footer>
+    </body>
+    </html>

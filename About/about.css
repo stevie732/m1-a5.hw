@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+.navbar ul li a:active {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('/static/images/gym.webp') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .9;
+}
+.headings{
+    font-size: 4rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.first{
+    color: yellow;
+}
+.possible{
+    color: white;
+}
+
+/* About Us Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: lightgray;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+#intro p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+#intro h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    right: 80%;
+}
+
+/* Our Community Section */
+#our-city{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: rgb(0,0,0);
+
+}
+
+.foot-info {
+    color: white;
+    width: 100%;
+    font: 0.6em;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens smaller than 600px */
+}
+  
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
+    /* Styles for screens between 601px and 900px */
+}
+  
+@media only screen and (min-width: 901px) {
+    /* Styles for screens larger than 900px */
+}
+ 
+
+

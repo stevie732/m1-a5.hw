@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("/static/images/pedro-araujo-PDjYClxmnyk-unsplash.jpg") no-repeat center center/cover;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+.navbar ul li a:active {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+/* Table */
+.local-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5%;
+}
+
+table {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: flex-start;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid whitesmoke;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-gap: 60px
+}
+
+.box {
+    max-height: 300px;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.grid-image {
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+.grid-text {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    text-align: center;
+    margin-top: 14em;
+    background-color: rgb(0,0,0);
+    padding: 2px;
+
+}
+
+.foot-info {
+    color: white;
+    width: 100%;
+    font: 0.6em;
+    padding: 5px;
+    margin: 5px;
+}

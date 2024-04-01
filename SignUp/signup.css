@@ -1,0 +1,175 @@
+body{
+    height: 800px;
+    margin: auto;
+    background-color: lightblue;
+    font-family: 'Roboto';
+    background: url('/static/images/brett-jordan-U2q73PfHFpM-unsplash.jpg') no-repeat center center/cover;
+}
+.signup-box{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: azure;
+    border-radius: 3px;
+}
+
+.login-box{
+    width: 360px;
+    height: 425px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: azure;
+}
+.login-box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('/static/brett-jordan-U2q73PfHFpM-unsplash.jpg')
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    color: black;
+    text-align: center;
+}
+h5{
+    color: black;
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+.submit {
+    color: rgb(0, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit:hover{
+    color: rgb(255, 255, 255);
+}
+.submit:active {
+    color: rgb(255, 0, 0);
+}
+
+.button{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: initial;
+    border-radius: 20px;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.p-1{
+    text-align: center;
+    color: rgb(0,0,255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.holiday{
+    color: black;
+}
+.holiday:hover{
+    color: rgb(255,0,0);
+}
+
+#btndiv {
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 95px;
+    border: red;
+    border-color: red;
+}
+
+.bt {
+    margin: 5px 0px 5px 25px;
+    background-color: rgb(130, 220, 255);
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+}
+.bt:hover {
+    color: rgb(255, 255, 255);
+}
+.bt:active {
+    color: rgb(255, 0, 0);
+}
+
+.btn {
+    border-width: 3px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(130, 220, 255);
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+}
+.btn:hover {
+    color: rgb(255, 255, 255);
+}
+.btn:active {
+    color: rgb(255, 0, 0);
+}
+
+.press:hover {
+    color: rgb(255, 255, 255);
+}
+.press:active {
+    color: rgb(255, 0, 0);
+}
+.press::backdrop {
+    color: rgb(0, 255, 0);
+}
+
+.lastpar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+#end p {
+    text-align: center;
+    color: gold;
+    font-size: 15px;
+    margin-top: -10px;
+}
+#end a {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+#end a:hover {
+    color: yellow;
+}
+#end a:active {
+    color: rgb(255, 0, 0);
+}
+
